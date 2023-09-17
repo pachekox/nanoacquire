@@ -15,30 +15,35 @@
 	<div class="flex flex-row flex-start ml-10 mt-10">
 		<a href="index.html"><img src="logo.png" class="w-1/4" ></a>
 	</div>
-	<hr class="mt-5">
+
 
 	<!-- End of header -->
-	<div class="flex flex-col md:flex-row mx-10">
+	<div class="flex flex-col md:flex-row mt-20 mx-10 md:ml-10 items-center ">
 		<div class="flex flex-col">
-			<h1 class="txt-large mt-5">Welcome Back</h1>
-			<h1>Welcome back,kindly log in to your account</h1>
-			<input type="email" name="email" id="email" placeholder="Enter your email address">
-			<input type="password" name="password" id="password" placeholder="Enter your password">
+			<h1 class="txt-md mt-5">Africa's number one startup acquisition marketplace</h1>
+			<h1 class="text-gray-400">Welcome back,kindly log in to your account</h1>
+			<input type="email" name="email" id="email" placeholder="Enter your email address" class="border-solid border-2 border-gray-400 pl-2 h-10 my-5 text-blue-400">
+			<input type="password" name="password" id="password" placeholder="Enter your password" class="border-solid border-2 border-gray-400 pl-2 h-10 text-blue-400">
 
-			<div class="flex flex-row justify-between mt-5">
-				<input type="checkbox" name="remember" id=""> <h1>Remember me</h1> 			
-				<h1>Forgot password?</h1>
+			<div class="flex flex-row mt-5 justify-between">
+				<div class="flex flex-row gap-x-4"><input type="checkbox" name="remember" id=""> <h1>Remember me</h1> </div>
+				<a href="forgot-password.html">Forgot password?</a>
 		</div>
 
-			<div class="flex flex-row justify-between my-10">
+			<div class="flex flex-row gap-x-8 my-10">
 				<button class="bg-blue-400 rounded-sm px-4 py-1 text-white">Login</button>
 				<button class="border-solid border-2 border-blue-400 text-blue-400 px-4 py-1 rounded-sm">Sign Up</button>
 				
 			</div>
-			<h1>Or Log In with</h1>
-			<h1>Facebook</h1>
-			<h1>LinkedIn</h1>
-			<h1>Google</h1>
+			<div class="flex flex-row justify-between">
+				<h1 class="text-gray-400">Or Log In with</h1>
+
+				<div class="flex flex-row gap-x-4">
+					<h1 class="text-blue-400">Facebook</h1>
+					<h1 class="text-blue-400">LinkedIn</h1>
+					<h1 class="text-blue-400">Google</h1>
+				</div>
+			</div>
 		</div>
 		<div class=" login-image w-1/2 invisible md:visible">
 			<img src="" alt="image illustrating aquisition">
