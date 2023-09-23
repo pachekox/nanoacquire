@@ -1,58 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Startup Buyers</title>
-	<script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" type="text/css" href="custom.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Startup Buyers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="flex flex-row justify-between mt-10 mx-4 md:mx-10">
-        <div class="flex flex-row justify-between w-1/5">
-            <img src="emblem.png" alt="" class="w-10">
-            <h1>Listing</h1>
-            <h1>My deals</h1>
+      <div class="flex flex-row justify-between w-1/5">
+        <img src="emblem.png" alt="" class="w-10" />
+        <h1>Listing</h1>
+        <h1>My deals</h1>
+      </div>
+      <div class="flex flex-row">
+        <div class="get-help border dotted px-4 py-2 rounded-sm">
+          <h1>Need help</h1>
         </div>
-        <div class="flex flex-row">
-            <div class="get-help border dotted px-4 py-2 rounded-sm">
-                <h1>Need help</h1>
-            </div>
-        </div>
+      </div>
     </div>
 
     <!-- end: header -->
     <div class="flex flex-row justify-between mt-10 mx-10">
-        <div class="flex flex-row justify-between space-x-4">
-            <div class="border dotted px-4 py-2 rounded-md">
-                <h1>  Type</h1>
-
-            </div>
-            <div class="border dotted px-4 py-2 rounded-md">
-                <h1>  Price</h1>
-
-            </div>
-            <div class="border dotted px-4 py-2 rounded-md">
-                <h1>  MTD Revenue</h1>
-
-            </div>
-            <div class="border dotted px-4 py-2 rounded-md">
-                <h1>  More filters</h1>
-
-            </div>
-           
+      <div class="flex flex-row justify-between space-x-4">
+        <div class="border dotted px-4 py-2 rounded-md">
+          <h1>Type</h1>
         </div>
-        <div class="flex flex-row-justify-between">
-            <input type="search" name="" id="" placeholder="search" class="pl-2 border dotted rounded-md">
+        <div class="border dotted px-4 py-2 rounded-md">
+          <h1>Price</h1>
         </div>
+        <div class="border dotted px-4 py-2 rounded-md">
+          <h1>MTD Revenue</h1>
+        </div>
+        <div class="border dotted px-4 py-2 rounded-md">
+          <h1>More filters</h1>
+        </div>
+      </div>
+      <div class="flex flex-row-justify-between">
+        <input
+          type="search"
+          name=""
+          id=""
+          placeholder="search"
+          class="pl-2 border dotted rounded-md"
+        />
+      </div>
     </div>
-    
-</body>
+
+    <!-- end: filter and search bar -->
+    <div class="startup-item flex flex-col justify-between ml-10 ml-10 w-1/3 mt-16 space-y-8 border px-4 py-4 rounded-md">
+      <div class="flex flex-row justify-between ">
+        <h1 class="font-bold">Saas</h1>
+        <div class="flex flex-row space-x-4">
+          <h1>hide</h1>
+          <h1>favorites</h1>
+        </div>
+      </div>
+      <h1>Brief description about the startup</h1>
+      <div class="flex flex-row justify-between">
+        <div class="">
+            <h1>Total Revenue</h1>
+            <h1 class="font-bold">1000</h1>
+        </div>
+        <div class="">
+            <h1>Monthly Users</h1>
+            <h1 class="font-bold">10$</h1>
+        </div>
+        <div class="">
+            <h1>MTD</h1>
+            <h1 class="font-bold">10$</h1>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
