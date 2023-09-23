@@ -26,7 +26,7 @@
   <body>
     <div class="flex flex-row justify-between mt-10 mx-4 md:mx-10">
       <div class="flex flex-row justify-between w-1/5">
-        <img src="emblem.png" alt="" class="w-10" />
+        <img src="emblem.png" alt="" class="w-16" />
         <h1>Listing</h1>
         <h1>My deals</h1>
       </div>
@@ -38,8 +38,8 @@
     </div>
 
     <!-- end: header -->
-    <div class="flex flex-row justify-between mt-10 mx-10">
-      <div class="flex flex-row justify-between space-x-4">
+    <div class="flex flex-col md:flex-row justify-between mt-10 mx-10 mt-2">
+      <div class="flex flex-row invisible md:visible justify-between space-x-4">
         <div class="border dotted px-4 py-2 rounded-md">
           <h1>Type</h1>
         </div>
@@ -53,19 +53,20 @@
           <h1>More filters</h1>
         </div>
       </div>
-      <div class="flex flex-row-justify-between">
+      <div class="flex flex-row justify-between w-full md:w-1/2">
         <input
           type="search"
           name=""
           id=""
           placeholder="search"
-          class="pl-2 border dotted rounded-md"
+          class="pl-2 border dotted rounded-md w-full py-2"
         />
       </div>
     </div>
 
     <!-- end: filter and search bar -->
-    <div class="startup-item flex flex-col justify-between ml-10 ml-10 w-1/3 mt-16 space-y-8 border px-4 py-4 rounded-md">
+    <div class="flex flex-col md:flex-row  mx-10 md:space-x-4">
+    <div class="startup-item flex flex-col justify-between w-full md:w-1/3 mt-16 space-y-8 border px-4 py-4 rounded-md">
       <div class="flex flex-row justify-between ">
         <h1 class="font-bold">Saas</h1>
         <div class="flex flex-row space-x-4">
@@ -89,5 +90,57 @@
         </div>
       </div>
     </div>
+
+
+    <div class="startup-item flex flex-col justify-between w-full md:w-1/3 mt-16 space-y-8 border px-4 py-4 rounded-md">
+        <div class="flex flex-row justify-between ">
+          <h1 class="font-bold">Saas</h1>
+          <div class="flex flex-row space-x-4">
+            <h1>hide</h1>
+            <h1>favorites</h1>
+          </div>
+        </div>
+        <h1>Brief description about the startup</h1>
+        <div class="flex flex-row justify-between">
+          <div class="">
+              <h1>Total Revenue</h1>
+              <h1 class="font-bold">1000</h1>
+          </div>
+          <div class="">
+              <h1>Monthly Users</h1>
+              <h1 class="font-bold">10$</h1>
+          </div>
+          <div class="">
+              <h1>MTD</h1>
+              <h1 class="font-bold">10$</h1>
+          </div>
+        </div>
+      </div>
+
+<div class="startup-item flex flex-col justify-between w-full md:w-1/3 mt-16 space-y-8 border px-4 py-4 rounded-md">
+    <div class="flex flex-row justify-between ">
+      <h1 class="font-bold">Saas</h1>
+      <div class="flex flex-row space-x-4">
+        <h1>hide</h1>
+        <h1>favorites</h1>
+      </div>
+    </div>
+    <h1>Brief description about the startup</h1>
+    <div class="flex flex-row justify-between">
+      <div class="">
+          <h1>Total Revenue</h1>
+          <h1 class="font-bold">1000</h1>
+      </div>
+      <div class="">
+          <h1>Monthly Users</h1>
+          <h1 class="font-bold">10$</h1>
+      </div>
+      <div class="">
+          <h1>MTD</h1>
+          <h1 class="font-bold">10$</h1>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
